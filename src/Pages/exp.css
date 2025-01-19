@@ -1,0 +1,54 @@
+.experience {
+  padding: 2rem;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #c084fc; /* Matches your portfolio's accent color */
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.experience-list {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.experience-card {
+  width: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-role {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.experience-company {
+  font-size: 1rem;
+  color: #c084fc;
+}
+
+.experience-duration {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.experience-description {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.experience-description li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
